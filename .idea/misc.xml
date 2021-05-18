@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/MotorcycleRaceSockets" />
+    <file type="web" url="file://$PROJECT_DIR$/MotorcycleRaceSpringRemoting" />
     <file type="web" url="file://$PROJECT_DIR$/../../UBB/SEMESTRUL IV/MPP/mpp-proiect-repository-k-alexa75/MotorcycleRace" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="15" project-jdk-type="JavaSDK">

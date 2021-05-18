@@ -1,0 +1,9 @@
+rootProject.name = 'MotorcycleRaceSockets'
+include 'MotorcycleRaceModel'
+include 'MotorcycleRaceServices'
+include 'MotorcycleRacePersistence'
+include 'MotorcycleRaceClientFX'
+include 'MotorcycleRaceNetworking'
+include 'MotorcycleRaceClient'
+include 'MotorcycleRaceServer'
+

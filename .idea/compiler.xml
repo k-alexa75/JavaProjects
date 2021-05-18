@@ -5,6 +5,9 @@
       <module name="MotorcycleRace" target="1.8" />
       <module name="MotorcycleRace.main" target="1.8" />
       <module name="MotorcycleRace.test" target="1.8" />
+      <module name="mpp-proiect-repository-k-alexa75.MotorcycleRace" target="1.8" />
+      <module name="mpp-proiect-repository-k-alexa75.MotorcycleRace.main" target="1.8" />
+      <module name="mpp-proiect-repository-k-alexa75.MotorcycleRace.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

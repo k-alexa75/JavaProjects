@@ -1,0 +1,98 @@
+18 May 2021 17:08:41,177 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:08:41,205 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:08:41,217 INFO  Repository.RiderRepository.RiderRepository 22 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:08:41,236 INFO  Repository.RegistrationRepository.RegistrationRepository 22 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:26:04,955 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:26:05,008 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:26:05,010 INFO  Repository.RiderRepository.RiderRepository 22 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:26:05,029 INFO  Repository.RegistrationRepository.RegistrationRepository 22 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:26:12,055 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+18 May 2021 17:26:12,056 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+18 May 2021 17:26:12,056 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+18 May 2021 17:26:12,057 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+18 May 2021 17:26:12,057 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+18 May 2021 17:26:12,057 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+18 May 2021 17:26:12,208 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@297f11ef)
+18 May 2021 17:29:35,001 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:29:35,005 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:29:35,006 INFO  Repository.RiderRepository.RiderRepository 22 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:29:35,008 INFO  Repository.RegistrationRepository.RegistrationRepository 22 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:29:40,712 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+18 May 2021 17:29:40,713 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+18 May 2021 17:29:40,714 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+18 May 2021 17:29:40,714 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+18 May 2021 17:29:40,714 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+18 May 2021 17:29:40,715 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+18 May 2021 17:29:40,975 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@496563b0)
+18 May 2021 17:30:12,140 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:30:12,144 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:30:12,145 INFO  Repository.RiderRepository.RiderRepository 22 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:30:12,146 INFO  Repository.RegistrationRepository.RegistrationRepository 22 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+18 May 2021 17:30:18,104 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+18 May 2021 17:30:18,104 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+18 May 2021 17:30:18,105 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+18 May 2021 17:30:18,105 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+18 May 2021 17:30:18,105 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+18 May 2021 17:30:18,106 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+18 May 2021 17:30:18,305 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@496563b0)
+18 May 2021 17:31:08,826 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db}
+18 May 2021 17:31:08,831 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db}
+18 May 2021 17:31:08,832 INFO  Repository.RiderRepository.RiderRepository 22 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db}
+18 May 2021 17:31:08,833 INFO  Repository.RegistrationRepository.RegistrationRepository 22 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db}
+18 May 2021 17:31:14,835 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+18 May 2021 17:31:14,835 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+18 May 2021 17:31:14,835 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+18 May 2021 17:31:14,836 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db
+18 May 2021 17:31:14,836 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+18 May 2021 17:31:14,836 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+18 May 2021 17:31:15,038 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@496563b0)
+18 May 2021 17:32:27,266 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db}
+18 May 2021 17:32:27,272 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db}
+18 May 2021 17:32:27,274 INFO  Repository.RiderRepository.RiderRepository 22 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db}
+18 May 2021 17:32:27,275 INFO  Repository.RegistrationRepository.RegistrationRepository 22 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db}
+18 May 2021 17:32:33,898 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+18 May 2021 17:32:33,899 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+18 May 2021 17:32:33,899 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+18 May 2021 17:32:33,899 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db
+18 May 2021 17:32:33,899 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+18 May 2021 17:32:33,900 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+18 May 2021 17:32:34,064 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@496563b0)
+18 May 2021 17:36:27,673 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db}
+18 May 2021 17:36:27,680 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db}
+18 May 2021 17:36:27,682 INFO  Repository.RiderRepository.RiderRepository 22 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db}
+18 May 2021 17:36:27,684 INFO  Repository.RegistrationRepository.RegistrationRepository 22 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db}
+18 May 2021 17:36:35,216 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+18 May 2021 17:36:35,216 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+18 May 2021 17:36:35,216 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+18 May 2021 17:36:35,217 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db
+18 May 2021 17:36:35,217 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+18 May 2021 17:36:35,217 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+18 May 2021 17:36:35,414 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@496563b0)
+18 May 2021 17:36:35,472 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+18 May 2021 17:36:35,473 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+18 May 2021 17:36:35,473 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+18 May 2021 17:36:35,474 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db
+18 May 2021 17:36:35,474 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+18 May 2021 17:36:35,474 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+18 May 2021 17:36:35,475 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d1a91a0)
+18 May 2021 17:36:35,476 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+18 May 2021 17:36:35,477 TRACE Repository.RegistrationRepository.RegistrationRepository 28 findAll - Enter
+18 May 2021 17:36:35,477 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+18 May 2021 17:36:35,477 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+18 May 2021 17:36:35,478 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\GitHubRepository -- Java\JavaProjects\MotorcycleRace.db
+18 May 2021 17:36:35,478 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+18 May 2021 17:36:35,478 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+18 May 2021 17:36:35,479 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6b93f6d8)
+18 May 2021 17:36:35,480 TRACE Repository.RegistrationRepository.RegistrationRepository 49 findAll - Exit with([Domain.Registration@68f5944b, Domain.Registration@14af589f, Domain.Registration@60fe59e4, Domain.Registration@2daa14ea, Domain.Registration@69b99ad8, Domain.Registration@73c4cd0, Domain.Registration@151f04aa, Domain.Registration@68ef4fa7, Domain.Registration@4da56738])
+18 May 2021 17:36:35,481 TRACE Repository.RegistrationRepository.RegistrationRepository 28 findAll - Enter
+18 May 2021 17:36:35,482 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+18 May 2021 17:36:35,482 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6b93f6d8)
+18 May 2021 17:36:35,483 TRACE Repository.RegistrationRepository.RegistrationRepository 49 findAll - Exit with([Domain.Registration@45cd836d, Domain.Registration@57cd7e04, Domain.Registration@31b74f62, Domain.Registration@4e166fac, Domain.Registration@67695be8, Domain.Registration@5b68245f, Domain.Registration@50afac0f, Domain.Registration@2d39d2b9, Domain.Registration@227aed])
+18 May 2021 17:36:35,483 TRACE Repository.RegistrationRepository.RegistrationRepository 28 findAll - Enter
+18 May 2021 17:36:35,483 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+18 May 2021 17:36:35,484 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6b93f6d8)
+18 May 2021 17:36:35,484 TRACE Repository.RegistrationRepository.RegistrationRepository 49 findAll - Exit with([Domain.Registration@1af2fc6a, Domain.Registration@3790e4ef, Domain.Registration@54df44be, Domain.Registration@47b9a9da, Domain.Registration@4a250ceb, Domain.Registration@7aa22edc, Domain.Registration@54f66f82, Domain.Registration@5e0bfbbf, Domain.Registration@3c2bf6c1])
+18 May 2021 17:36:35,484 TRACE Repository.RegistrationRepository.RegistrationRepository 28 findAll - Enter
+18 May 2021 17:36:35,484 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+18 May 2021 17:36:35,485 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6b93f6d8)
+18 May 2021 17:36:35,485 TRACE Repository.RegistrationRepository.RegistrationRepository 49 findAll - Exit with([Domain.Registration@5794fb56, Domain.Registration@30791459, Domain.Registration@312ed7ea, Domain.Registration@5250b2f0, Domain.Registration@226eada7, Domain.Registration@5acdbe6f, Domain.Registration@1d1bb35b, Domain.Registration@4a8b553a, Domain.Registration@1d5fda59])

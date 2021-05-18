@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="jdbcProps">
+        <prop key="race.jdbc.driver">org.sqlite.JDBC</prop>
+        <prop key="race.jdbc.url">jdbc:sqlite:D:\\GitHubRepository -- Java\\JavaProjects\\MotorcycleRace.db</prop>
+    </util:properties>
+
+    <bean id="userRepository" class="Repository.UserRepository.UserRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="raceRepository" class="Repository.RaceRepository.RaceRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="riderRepository" class="Repository.RiderRepository.RiderRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="registrationRepository" class="Repository.RegistrationRepository.RegistrationRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="raceService" class="Server.Service">
+        <constructor-arg ref="userRepository"/>
+        <constructor-arg ref="raceRepository"/>
+        <constructor-arg ref="riderRepository"/>
+        <constructor-arg ref="registrationRepository"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+
+        <property name="serviceName" value="Race"/>
+        <property name="service" ref="raceService"/>
+        <property name="serviceInterface" value="Services.IService"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+
+</beans>

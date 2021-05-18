@@ -1,0 +1,1221 @@
+17 Mar 2021 17:33:26,168 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+17 Mar 2021 17:33:26,172 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+17 Mar 2021 17:33:26,172 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+17 Mar 2021 17:33:26,173 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+17 Mar 2021 17:33:27,408 TRACE Repository.UserRepository.UserRepository 30 findAll - Enter
+17 Mar 2021 17:33:27,409 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+17 Mar 2021 17:33:27,409 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+17 Mar 2021 17:33:27,409 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+17 Mar 2021 17:33:27,410 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+17 Mar 2021 17:33:27,410 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+17 Mar 2021 17:33:27,587 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+17 Mar 2021 17:33:27,591 TRACE Repository.UserRepository.UserRepository 53 findAll - Exit with([User{id=1, firstName='Ioana', lastName='Pop', username='ioana', password='0000'}, User{id=2, firstName='Marian', lastName='Popescu', username='marian', password='0000'}])
+17 Mar 2021 17:33:27,592 TRACE Repository.RiderRepository.RiderRepository 29 findAll - Enter
+17 Mar 2021 17:33:27,592 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+17 Mar 2021 17:33:27,592 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+17 Mar 2021 17:33:27,593 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+17 Mar 2021 17:33:27,593 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+17 Mar 2021 17:33:27,593 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+17 Mar 2021 17:33:27,594 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+17 Mar 2021 17:33:27,595 TRACE Repository.RiderRepository.RiderRepository 52 findAll - Exit with([Rider{id=1, firstName='Radu', lastName='Ganea', team='Suzuki', engineCapacity=1000}, Rider{id=2, firstName='Maria', lastName='Pop', team='Ducati', engineCapacity=1000}])
+20 Mar 2021 11:01:01,252 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+20 Mar 2021 11:01:01,293 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+20 Mar 2021 11:01:01,294 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+20 Mar 2021 11:01:01,301 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+20 Mar 2021 11:01:01,303 TRACE Repository.UserRepository.UserRepository 30 findAll - Enter Searching all Users...
+20 Mar 2021 11:01:01,304 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+20 Mar 2021 11:01:01,304 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+20 Mar 2021 11:01:01,304 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+20 Mar 2021 11:01:01,305 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+20 Mar 2021 11:01:01,305 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+20 Mar 2021 11:01:02,119 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7bba5817)
+20 Mar 2021 11:01:02,123 TRACE Repository.UserRepository.UserRepository 53 findAll - Exit with([User{id=1, firstName='Ioana', lastName='Pop', username='ioana', password='0000'}, User{id=2, firstName='Marian', lastName='Popescu', username='marian', password='0000'}])
+20 Mar 2021 11:01:02,124 TRACE Repository.RiderRepository.RiderRepository 29 findAll - Enter
+20 Mar 2021 11:01:02,124 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+20 Mar 2021 11:01:02,125 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+20 Mar 2021 11:01:02,125 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+20 Mar 2021 11:01:02,125 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+20 Mar 2021 11:01:02,125 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+20 Mar 2021 11:01:02,126 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ba987b8)
+20 Mar 2021 11:01:02,128 TRACE Repository.RiderRepository.RiderRepository 52 findAll - Exit with([Rider{id=1, firstName='Radu', lastName='Ganea', team='Suzuki', engineCapacity=1000}, Rider{id=2, firstName='Maria', lastName='Pop', team='Ducati', engineCapacity=1000}])
+20 Mar 2021 23:46:35,370 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+20 Mar 2021 23:46:35,884 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+20 Mar 2021 23:46:35,965 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+20 Mar 2021 23:46:35,974 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+20 Mar 2021 23:50:57,826 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+20 Mar 2021 23:50:57,832 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+20 Mar 2021 23:50:57,834 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+20 Mar 2021 23:50:57,835 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:42:26,087 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:42:26,689 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:42:26,767 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:42:26,900 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:42:38,765 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+24 Mar 2021 08:42:38,766 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+24 Mar 2021 08:42:38,766 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+24 Mar 2021 08:42:38,766 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+24 Mar 2021 08:42:38,766 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+24 Mar 2021 08:42:38,767 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+24 Mar 2021 08:42:39,919 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@243444d0)
+24 Mar 2021 08:42:40,064 ERROR Repository.UserRepository.UserRepository 101 getUserByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: usename)
+24 Mar 2021 08:42:40,065 TRACE Repository.UserRepository.UserRepository 104 getUserByUsernameAndPassword - Exit
+24 Mar 2021 08:43:23,086 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:43:23,116 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:43:23,118 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:43:23,134 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:43:32,461 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+24 Mar 2021 08:43:32,461 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+24 Mar 2021 08:43:32,461 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+24 Mar 2021 08:43:32,462 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+24 Mar 2021 08:43:32,462 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+24 Mar 2021 08:43:32,463 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+24 Mar 2021 08:43:33,023 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3457c211)
+24 Mar 2021 08:43:33,034 ERROR Repository.UserRepository.UserRepository 101 getUserByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: usename)
+24 Mar 2021 08:43:33,035 TRACE Repository.UserRepository.UserRepository 104 getUserByUsernameAndPassword - Exit
+24 Mar 2021 08:45:49,991 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:45:49,995 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:45:49,997 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:45:49,998 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:45:58,647 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+24 Mar 2021 08:45:58,647 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+24 Mar 2021 08:45:58,648 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+24 Mar 2021 08:45:58,648 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+24 Mar 2021 08:45:58,648 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+24 Mar 2021 08:45:58,648 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+24 Mar 2021 08:45:58,945 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@703aaebc)
+24 Mar 2021 08:45:58,952 ERROR Repository.UserRepository.UserRepository 101 getUserByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: usename)
+24 Mar 2021 08:45:58,953 TRACE Repository.UserRepository.UserRepository 104 getUserByUsernameAndPassword - Exit
+24 Mar 2021 08:47:30,871 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:47:30,893 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:47:30,897 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:47:30,900 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+24 Mar 2021 08:47:38,198 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+24 Mar 2021 08:47:38,199 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+24 Mar 2021 08:47:38,199 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+24 Mar 2021 08:47:38,199 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+24 Mar 2021 08:47:38,199 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+24 Mar 2021 08:47:38,200 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+24 Mar 2021 08:47:38,503 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27314933)
+24 Mar 2021 08:47:38,515 ERROR Repository.UserRepository.UserRepository 101 getUserByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: usename)
+24 Mar 2021 08:47:38,516 TRACE Repository.UserRepository.UserRepository 104 getUserByUsernameAndPassword - Exit
+25 Mar 2021 16:57:46,044 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 16:57:46,159 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 16:57:46,180 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 16:57:46,227 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 16:57:57,533 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+25 Mar 2021 16:57:57,534 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 16:57:57,534 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 16:57:57,535 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 16:57:57,535 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 16:57:57,536 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 16:57:59,156 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b3a2934)
+25 Mar 2021 16:57:59,163 ERROR Repository.UserRepository.UserRepository 101 getUserByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: usename)
+25 Mar 2021 16:57:59,165 TRACE Repository.UserRepository.UserRepository 104 getUserByUsernameAndPassword - Exit
+25 Mar 2021 16:57:59,682 TRACE Repository.RaceRepository.RaceRepository 29 findAll - Enter
+25 Mar 2021 16:57:59,683 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 16:57:59,683 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 16:57:59,683 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 16:57:59,683 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 16:57:59,684 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 16:57:59,684 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2919fee)
+25 Mar 2021 16:57:59,686 TRACE Repository.RaceRepository.RaceRepository 51 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+25 Mar 2021 16:57:59,686 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 16:57:59,687 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 16:57:59,687 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 16:57:59,687 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 16:57:59,687 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 16:57:59,687 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 16:57:59,688 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8b56d43)
+25 Mar 2021 16:57:59,690 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@3ed306d4, Domain.Registration@69893f66])
+25 Mar 2021 16:57:59,691 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 16:57:59,691 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 16:57:59,692 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8b56d43)
+25 Mar 2021 16:57:59,693 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@63637326, Domain.Registration@45202c38])
+25 Mar 2021 16:57:59,693 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 16:57:59,693 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 16:57:59,693 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8b56d43)
+25 Mar 2021 16:57:59,694 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@657259f5, Domain.Registration@32273aa])
+25 Mar 2021 16:57:59,695 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 16:57:59,698 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 16:57:59,700 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8b56d43)
+25 Mar 2021 16:57:59,702 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@7b20daab, Domain.Registration@3f25781b])
+25 Mar 2021 17:11:49,784 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:11:49,791 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:11:49,793 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:11:49,801 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:11:57,788 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+25 Mar 2021 17:11:57,789 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:11:57,789 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:11:57,789 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:11:57,789 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:11:57,790 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:11:58,119 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@703aaebc)
+25 Mar 2021 17:11:58,124 ERROR Repository.UserRepository.UserRepository 101 getUserByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: usename)
+25 Mar 2021 17:11:58,124 TRACE Repository.UserRepository.UserRepository 104 getUserByUsernameAndPassword - Exit
+25 Mar 2021 17:11:58,350 TRACE Repository.RaceRepository.RaceRepository 29 findAll - Enter
+25 Mar 2021 17:11:58,350 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:11:58,350 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:11:58,351 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:11:58,351 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:11:58,352 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:11:58,353 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a5d6c55)
+25 Mar 2021 17:11:58,357 TRACE Repository.RaceRepository.RaceRepository 51 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+25 Mar 2021 17:11:58,358 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:11:58,358 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:11:58,359 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:11:58,359 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:11:58,360 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:11:58,360 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:11:58,363 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:11:58,369 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@ec713bf, Domain.Registration@54b267f1])
+25 Mar 2021 17:11:58,371 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:11:58,372 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:11:58,373 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:11:58,374 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@125416e8, Domain.Registration@24b8a5f6])
+25 Mar 2021 17:11:58,374 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:11:58,375 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:11:58,375 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:11:58,377 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@6372d37f, Domain.Registration@2bb921f1])
+25 Mar 2021 17:11:58,377 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:11:58,378 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:11:58,378 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:11:58,379 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@19e88138, Domain.Registration@781e00e6])
+25 Mar 2021 17:12:08,635 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Ducati team
+25 Mar 2021 17:12:08,638 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:12:08,640 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:12:08,640 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:12:08,641 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:12:08,641 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:12:08,642 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@fc4cc9)
+25 Mar 2021 17:12:08,643 ERROR Repository.RiderRepository.RiderRepository 99 getRidersByTeam - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: Ducati)
+25 Mar 2021 17:12:08,643 TRACE Repository.RiderRepository.RiderRepository 102 getRidersByTeam - Exit with([])
+25 Mar 2021 17:12:18,137 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Suzuki team
+25 Mar 2021 17:12:18,138 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:12:18,138 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@fc4cc9)
+25 Mar 2021 17:12:18,139 ERROR Repository.RiderRepository.RiderRepository 99 getRidersByTeam - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: Suzuki)
+25 Mar 2021 17:12:18,140 TRACE Repository.RiderRepository.RiderRepository 102 getRidersByTeam - Exit with([])
+25 Mar 2021 17:14:05,988 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:14:05,999 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:14:06,003 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:14:06,006 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:14:18,078 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+25 Mar 2021 17:14:18,078 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:14:18,079 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:14:18,079 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:14:18,079 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:14:18,079 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:14:18,410 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@703aaebc)
+25 Mar 2021 17:14:18,416 ERROR Repository.UserRepository.UserRepository 101 getUserByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: usename)
+25 Mar 2021 17:14:18,417 TRACE Repository.UserRepository.UserRepository 104 getUserByUsernameAndPassword - Exit
+25 Mar 2021 17:14:18,550 TRACE Repository.RaceRepository.RaceRepository 29 findAll - Enter
+25 Mar 2021 17:14:18,550 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:14:18,550 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:14:18,550 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:14:18,551 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:14:18,551 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:14:18,551 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a5d6c55)
+25 Mar 2021 17:14:18,553 TRACE Repository.RaceRepository.RaceRepository 51 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+25 Mar 2021 17:14:18,554 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:14:18,554 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:14:18,554 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:14:18,555 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:14:18,555 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:14:18,555 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:14:18,556 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:14:18,557 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@ec713bf, Domain.Registration@54b267f1])
+25 Mar 2021 17:14:18,558 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:14:18,558 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:14:18,558 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:14:18,559 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@125416e8, Domain.Registration@24b8a5f6])
+25 Mar 2021 17:14:18,559 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:14:18,559 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:14:18,560 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:14:18,560 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@6372d37f, Domain.Registration@2bb921f1])
+25 Mar 2021 17:14:18,560 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:14:18,561 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:14:18,561 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:14:18,566 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@19e88138, Domain.Registration@781e00e6])
+25 Mar 2021 17:14:25,728 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Suzuki team
+25 Mar 2021 17:14:25,732 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:14:25,733 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:14:25,735 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:14:25,736 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:14:25,736 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:14:25,738 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@fc4cc9)
+25 Mar 2021 17:14:25,739 TRACE Repository.RiderRepository.RiderRepository 102 getRidersByTeam - Exit with([])
+25 Mar 2021 17:31:11,200 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:31:11,204 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:31:11,205 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:31:11,206 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:31:19,507 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+25 Mar 2021 17:31:19,508 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:31:19,508 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:31:19,508 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:31:19,509 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:31:19,509 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:31:19,797 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@703aaebc)
+25 Mar 2021 17:31:19,803 ERROR Repository.UserRepository.UserRepository 101 getUserByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: usename)
+25 Mar 2021 17:31:19,804 TRACE Repository.UserRepository.UserRepository 104 getUserByUsernameAndPassword - Exit
+25 Mar 2021 17:31:19,872 TRACE Repository.RaceRepository.RaceRepository 29 findAll - Enter
+25 Mar 2021 17:31:19,873 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:31:19,873 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:31:19,873 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:31:19,873 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:31:19,874 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:31:19,875 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a5d6c55)
+25 Mar 2021 17:31:19,876 TRACE Repository.RaceRepository.RaceRepository 51 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+25 Mar 2021 17:31:19,877 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:31:19,877 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:31:19,877 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:31:19,878 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:31:19,878 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:31:19,878 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:31:19,879 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:31:19,881 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@ec713bf, Domain.Registration@54b267f1])
+25 Mar 2021 17:31:19,881 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:31:19,882 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:31:19,882 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:31:19,882 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@125416e8, Domain.Registration@24b8a5f6])
+25 Mar 2021 17:31:19,883 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:31:19,883 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:31:19,883 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:31:19,883 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@6372d37f, Domain.Registration@2bb921f1])
+25 Mar 2021 17:31:19,884 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:31:19,884 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:31:19,884 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:31:19,884 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@19e88138, Domain.Registration@781e00e6])
+25 Mar 2021 17:31:34,327 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Ducati team
+25 Mar 2021 17:31:34,328 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:31:34,328 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:31:34,328 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:31:34,328 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:31:34,329 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:31:34,331 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@fc4cc9)
+25 Mar 2021 17:31:34,331 TRACE Repository.RiderRepository.RiderRepository 102 getRidersByTeam - Exit with([])
+25 Mar 2021 17:33:03,468 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:33:03,474 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:33:03,475 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:33:03,476 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:33:10,689 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+25 Mar 2021 17:33:10,689 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:33:10,690 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:33:10,690 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:33:10,690 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:33:10,690 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:33:11,007 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@703aaebc)
+25 Mar 2021 17:33:11,013 ERROR Repository.UserRepository.UserRepository 101 getUserByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: usename)
+25 Mar 2021 17:33:11,014 TRACE Repository.UserRepository.UserRepository 104 getUserByUsernameAndPassword - Exit
+25 Mar 2021 17:33:11,080 TRACE Repository.RaceRepository.RaceRepository 29 findAll - Enter
+25 Mar 2021 17:33:11,080 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:33:11,081 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:33:11,081 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:33:11,081 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:33:11,081 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:33:11,082 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a5d6c55)
+25 Mar 2021 17:33:11,083 TRACE Repository.RaceRepository.RaceRepository 51 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+25 Mar 2021 17:33:11,084 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:33:11,084 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:33:11,085 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:33:11,085 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:33:11,085 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:33:11,086 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:33:11,086 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:33:11,088 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@ec713bf, Domain.Registration@54b267f1])
+25 Mar 2021 17:33:11,088 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:33:11,088 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:33:11,089 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:33:11,089 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@125416e8, Domain.Registration@24b8a5f6])
+25 Mar 2021 17:33:11,089 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:33:11,090 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:33:11,090 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:33:11,091 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@6372d37f, Domain.Registration@2bb921f1])
+25 Mar 2021 17:33:11,091 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:33:11,091 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:33:11,091 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:33:11,092 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@19e88138, Domain.Registration@781e00e6])
+25 Mar 2021 17:33:36,361 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Suzuki team
+25 Mar 2021 17:33:36,361 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:33:36,361 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:33:36,362 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:33:36,363 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:33:36,363 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:33:36,364 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@fc4cc9)
+25 Mar 2021 17:33:36,365 TRACE Repository.RiderRepository.RiderRepository 102 getRidersByTeam - Exit with([])
+25 Mar 2021 17:33:48,055 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from suzuki team
+25 Mar 2021 17:33:48,056 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:33:48,056 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@fc4cc9)
+25 Mar 2021 17:33:48,057 TRACE Repository.RiderRepository.RiderRepository 102 getRidersByTeam - Exit with([])
+25 Mar 2021 17:35:14,263 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:35:14,269 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:35:14,270 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:35:14,271 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:35:35,752 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:35:35,758 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:35:35,760 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:35:35,761 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:40:52,445 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+25 Mar 2021 17:40:52,445 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:40:52,446 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:40:52,446 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:40:52,446 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:40:52,447 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:40:52,657 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4eb94f8c)
+25 Mar 2021 17:40:52,662 ERROR Repository.UserRepository.UserRepository 101 getUserByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: usename)
+25 Mar 2021 17:40:52,662 TRACE Repository.UserRepository.UserRepository 104 getUserByUsernameAndPassword - Exit
+25 Mar 2021 17:40:52,719 TRACE Repository.RaceRepository.RaceRepository 29 findAll - Enter
+25 Mar 2021 17:40:52,720 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:40:52,720 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:40:52,720 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:40:52,721 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:40:52,721 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:40:52,722 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@781e00e6)
+25 Mar 2021 17:40:52,725 TRACE Repository.RaceRepository.RaceRepository 51 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+25 Mar 2021 17:40:52,725 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:40:52,725 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:40:52,726 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:40:52,726 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:40:52,726 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:40:52,727 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:40:52,728 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32ea7eca)
+25 Mar 2021 17:40:52,729 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@218fecfa, Domain.Registration@789a2f89])
+25 Mar 2021 17:40:52,730 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:40:52,730 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:40:52,730 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32ea7eca)
+25 Mar 2021 17:40:52,731 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@7976b95a, Domain.Registration@274062b2])
+25 Mar 2021 17:40:52,731 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:40:52,731 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:40:52,731 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32ea7eca)
+25 Mar 2021 17:40:52,732 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@e0ff7b4, Domain.Registration@2f5a60e9])
+25 Mar 2021 17:40:52,732 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:40:52,732 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:40:52,733 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32ea7eca)
+25 Mar 2021 17:40:52,733 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@632ab031, Domain.Registration@47db0b14])
+25 Mar 2021 17:41:01,384 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Suzuki team
+25 Mar 2021 17:41:01,384 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:41:01,385 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:41:01,385 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:41:01,385 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:41:01,385 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:41:01,386 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@20eba73c)
+25 Mar 2021 17:41:01,387 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([])
+25 Mar 2021 17:41:23,774 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Ducati team
+25 Mar 2021 17:41:23,774 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:41:23,774 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@20eba73c)
+25 Mar 2021 17:41:23,775 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([])
+25 Mar 2021 17:42:40,513 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:42:40,519 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:42:40,520 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:42:40,522 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:42:46,448 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+25 Mar 2021 17:42:46,449 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:42:46,449 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:42:46,449 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:42:46,450 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:42:46,450 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:42:46,725 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@703aaebc)
+25 Mar 2021 17:42:46,730 ERROR Repository.UserRepository.UserRepository 101 getUserByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: usename)
+25 Mar 2021 17:42:46,730 TRACE Repository.UserRepository.UserRepository 104 getUserByUsernameAndPassword - Exit
+25 Mar 2021 17:42:46,795 TRACE Repository.RaceRepository.RaceRepository 29 findAll - Enter
+25 Mar 2021 17:42:46,796 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:42:46,796 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:42:46,796 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:42:46,796 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:42:46,796 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:42:46,797 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a5d6c55)
+25 Mar 2021 17:42:46,799 TRACE Repository.RaceRepository.RaceRepository 51 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+25 Mar 2021 17:42:46,800 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:42:46,800 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:42:46,801 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:42:46,801 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:42:46,801 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:42:46,802 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:42:46,802 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:42:46,804 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@ec713bf, Domain.Registration@54b267f1])
+25 Mar 2021 17:42:46,805 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:42:46,805 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:42:46,806 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:42:46,806 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@125416e8, Domain.Registration@24b8a5f6])
+25 Mar 2021 17:42:46,806 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:42:46,807 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:42:46,807 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:42:46,807 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@6372d37f, Domain.Registration@2bb921f1])
+25 Mar 2021 17:42:46,808 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:42:46,808 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:42:46,808 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7232d96b)
+25 Mar 2021 17:42:46,809 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@19e88138, Domain.Registration@781e00e6])
+25 Mar 2021 17:42:53,453 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Ducati team
+25 Mar 2021 17:42:53,454 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:42:53,454 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:42:53,454 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:42:53,454 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:42:53,455 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:42:53,456 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7a410479)
+25 Mar 2021 17:42:53,457 ERROR Repository.RiderRepository.RiderRepository 101 getRidersByTeam - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: Ducati)
+25 Mar 2021 17:42:53,457 TRACE Repository.RiderRepository.RiderRepository 104 getRidersByTeam - Exit with([])
+25 Mar 2021 17:48:02,127 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:48:02,131 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:48:02,132 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:48:02,134 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:48:09,073 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+25 Mar 2021 17:48:09,074 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:48:09,075 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:48:09,075 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:48:09,076 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:48:09,076 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:48:10,287 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4eb94f8c)
+25 Mar 2021 17:48:10,292 ERROR Repository.UserRepository.UserRepository 101 getUserByUsernameAndPassword - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: usename)
+25 Mar 2021 17:48:10,293 TRACE Repository.UserRepository.UserRepository 104 getUserByUsernameAndPassword - Exit
+25 Mar 2021 17:48:10,351 TRACE Repository.RaceRepository.RaceRepository 29 findAll - Enter
+25 Mar 2021 17:48:10,351 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:48:10,351 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:48:10,352 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:48:10,352 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:48:10,352 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:48:10,353 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@781e00e6)
+25 Mar 2021 17:48:10,355 TRACE Repository.RaceRepository.RaceRepository 51 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+25 Mar 2021 17:48:10,355 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:48:10,355 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:48:10,355 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:48:10,356 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:48:10,356 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:48:10,356 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:48:10,357 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32ea7eca)
+25 Mar 2021 17:48:10,358 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@218fecfa, Domain.Registration@789a2f89])
+25 Mar 2021 17:48:10,359 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:48:10,359 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:48:10,360 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32ea7eca)
+25 Mar 2021 17:48:10,360 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@7976b95a, Domain.Registration@274062b2])
+25 Mar 2021 17:48:10,360 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:48:10,360 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:48:10,361 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32ea7eca)
+25 Mar 2021 17:48:10,361 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@e0ff7b4, Domain.Registration@2f5a60e9])
+25 Mar 2021 17:48:10,361 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:48:10,362 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:48:10,362 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32ea7eca)
+25 Mar 2021 17:48:10,362 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@632ab031, Domain.Registration@47db0b14])
+25 Mar 2021 17:48:16,367 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Ducati team
+25 Mar 2021 17:48:16,367 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:48:16,368 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:48:16,368 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:48:16,368 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:48:16,369 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:48:16,370 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@63f730f)
+25 Mar 2021 17:48:16,371 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([Rider{id=2, firstName='Maria', lastName='Pop', team='Ducati', engineCapacity=1000}])
+25 Mar 2021 17:48:25,921 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Suzuki team
+25 Mar 2021 17:48:25,921 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:48:25,921 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@63f730f)
+25 Mar 2021 17:48:25,922 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([Rider{id=1, firstName='Radu', lastName='Ganea', team='Suzuki', engineCapacity=1000}])
+25 Mar 2021 17:52:14,135 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:52:14,139 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:52:14,141 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:52:14,141 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:52:21,066 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+25 Mar 2021 17:52:21,066 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:52:21,066 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:52:21,066 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:52:21,067 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:52:21,067 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:52:21,297 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@703aaebc)
+25 Mar 2021 17:52:21,385 TRACE Repository.RaceRepository.RaceRepository 29 findAll - Enter
+25 Mar 2021 17:52:21,385 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:52:21,385 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:52:21,386 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:52:21,386 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:52:21,387 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:52:21,388 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6902475a)
+25 Mar 2021 17:52:21,389 TRACE Repository.RaceRepository.RaceRepository 51 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+25 Mar 2021 17:52:21,390 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:52:21,390 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:52:21,390 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:52:21,390 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:52:21,391 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:52:21,391 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:52:21,392 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+25 Mar 2021 17:52:21,393 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@2fcad2cd, Domain.Registration@2a50c676])
+25 Mar 2021 17:52:21,394 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:52:21,394 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:52:21,395 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+25 Mar 2021 17:52:21,395 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@fb78016, Domain.Registration@76127797])
+25 Mar 2021 17:52:21,396 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:52:21,396 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:52:21,396 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+25 Mar 2021 17:52:21,397 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5a5d6c55, Domain.Registration@24fd3965])
+25 Mar 2021 17:52:21,397 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:52:21,397 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:52:21,398 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+25 Mar 2021 17:52:21,398 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@1779aadc, Domain.Registration@7232d96b])
+25 Mar 2021 17:53:28,119 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Ducati team
+25 Mar 2021 17:53:28,120 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:53:28,120 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:53:28,120 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:53:28,121 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:53:28,121 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:53:28,122 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5bd1119a)
+25 Mar 2021 17:53:28,123 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([Rider{id=2, firstName='Maria', lastName='Pop', team='Ducati', engineCapacity=1000}])
+25 Mar 2021 17:57:40,408 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:57:40,414 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:57:40,416 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:57:40,418 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:57:47,523 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+25 Mar 2021 17:57:47,524 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:57:47,524 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:57:47,524 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:57:47,525 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:57:47,525 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:57:47,809 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5d852f3f)
+25 Mar 2021 17:57:47,890 TRACE Repository.RaceRepository.RaceRepository 29 findAll - Enter
+25 Mar 2021 17:57:47,890 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:57:47,890 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:57:47,890 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:57:47,891 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:57:47,891 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:57:47,892 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b4a817d)
+25 Mar 2021 17:57:47,893 TRACE Repository.RaceRepository.RaceRepository 51 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+25 Mar 2021 17:57:47,894 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:57:47,894 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:57:47,894 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:57:47,895 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:57:47,895 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:57:47,895 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:57:47,896 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+25 Mar 2021 17:57:47,899 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@59045ac0, Domain.Registration@28bc80ee])
+25 Mar 2021 17:57:47,900 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:57:47,900 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:57:47,900 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+25 Mar 2021 17:57:47,901 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@286ce648, Domain.Registration@53457bdf])
+25 Mar 2021 17:57:47,901 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:57:47,902 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:57:47,902 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+25 Mar 2021 17:57:47,902 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@1f323aa9, Domain.Registration@5a2c4379])
+25 Mar 2021 17:57:47,902 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:57:47,903 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:57:47,903 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+25 Mar 2021 17:57:47,903 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@15bda0d2, Domain.Registration@6d5eba39])
+25 Mar 2021 17:58:14,821 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Suzuki team
+25 Mar 2021 17:58:14,822 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:58:14,822 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:58:14,822 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:58:14,822 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:58:14,823 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:58:14,824 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@356c74e8)
+25 Mar 2021 17:58:14,825 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([Rider{id=1, firstName='Radu', lastName='Ganea', team='Suzuki', engineCapacity=1000}])
+25 Mar 2021 17:58:26,292 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:58:26,300 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:58:26,302 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:58:26,303 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 17:58:32,617 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+25 Mar 2021 17:58:32,618 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:58:32,618 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:58:32,619 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:58:32,619 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:58:32,619 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:58:32,842 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6eb74df)
+25 Mar 2021 17:58:32,904 TRACE Repository.RaceRepository.RaceRepository 29 findAll - Enter
+25 Mar 2021 17:58:32,905 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:58:32,905 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:58:32,905 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:58:32,906 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:58:32,906 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:58:32,907 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+25 Mar 2021 17:58:32,909 TRACE Repository.RaceRepository.RaceRepository 51 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+25 Mar 2021 17:58:32,910 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:58:32,910 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:58:32,910 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+25 Mar 2021 17:58:32,910 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+25 Mar 2021 17:58:32,910 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+25 Mar 2021 17:58:32,911 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+25 Mar 2021 17:58:32,912 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2fcad2cd)
+25 Mar 2021 17:58:32,914 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@109dd87b, Domain.Registration@fb78016])
+25 Mar 2021 17:58:32,915 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:58:32,915 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:58:32,916 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2fcad2cd)
+25 Mar 2021 17:58:32,916 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5a5d6c55, Domain.Registration@24fd3965])
+25 Mar 2021 17:58:32,917 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:58:32,917 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:58:32,917 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2fcad2cd)
+25 Mar 2021 17:58:32,918 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@1779aadc, Domain.Registration@7232d96b])
+25 Mar 2021 17:58:32,919 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+25 Mar 2021 17:58:32,920 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+25 Mar 2021 17:58:32,920 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2fcad2cd)
+25 Mar 2021 17:58:32,921 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@43bc2cbc, Domain.Registration@ec713bf])
+25 Mar 2021 18:00:36,412 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 18:00:36,418 INFO  Repository.RaceRepository.RaceRepository 23 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 18:00:36,420 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+25 Mar 2021 18:00:36,421 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:21:09,345 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:21:09,370 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:21:09,372 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:21:09,373 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:21:19,993 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+26 Mar 2021 23:21:19,993 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:21:19,994 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:21:19,994 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:21:19,994 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:21:19,994 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:21:20,675 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@703aaebc)
+26 Mar 2021 23:21:20,989 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+26 Mar 2021 23:21:20,989 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:21:20,989 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:21:20,990 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:21:20,990 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:21:20,990 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:21:20,991 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6902475a)
+26 Mar 2021 23:21:20,994 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+26 Mar 2021 23:21:20,995 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:21:20,995 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:21:20,995 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:21:20,996 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:21:20,996 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:21:20,997 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:21:20,998 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:21:20,999 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([])
+26 Mar 2021 23:21:21,000 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:21:21,001 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:21:21,001 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:21:21,002 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([])
+26 Mar 2021 23:21:21,002 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:21:21,002 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:21:21,003 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:21:21,003 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([])
+26 Mar 2021 23:21:21,003 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:21:21,003 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:21:21,004 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:21:21,004 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([])
+26 Mar 2021 23:21:31,885 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Suzuki team
+26 Mar 2021 23:21:31,886 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:21:31,886 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:21:31,886 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:21:31,887 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:21:31,887 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:21:31,888 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1523cb70)
+26 Mar 2021 23:21:31,889 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([Rider{id=1, firstName='Radu', lastName='Ganea', team='Suzuki', engineCapacity=1000}])
+26 Mar 2021 23:30:50,716 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:30:50,732 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:30:50,733 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:30:50,734 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:30:58,877 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+26 Mar 2021 23:30:58,877 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:30:58,877 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:30:58,878 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:30:58,878 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:30:58,878 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:31:15,964 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5d852f3f)
+26 Mar 2021 23:31:16,993 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+26 Mar 2021 23:31:16,993 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:16,993 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:31:16,993 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:31:16,994 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:31:16,994 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:31:16,995 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b4a817d)
+26 Mar 2021 23:31:16,996 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+26 Mar 2021 23:31:16,997 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:31:16,997 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:16,997 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:31:16,997 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:31:16,998 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:31:16,998 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:31:16,999 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:31:16,999 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([])
+26 Mar 2021 23:31:17,000 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:31:17,000 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:17,001 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:31:17,001 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([])
+26 Mar 2021 23:31:17,002 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:31:17,002 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:17,002 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:31:17,002 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([])
+26 Mar 2021 23:31:17,003 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:31:17,003 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:17,003 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:31:17,003 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([])
+26 Mar 2021 23:31:31,149 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Suzuki team
+26 Mar 2021 23:31:31,150 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:31,150 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:31:31,223 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:31:31,223 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:31:31,223 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:31:31,224 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2255ef9a)
+26 Mar 2021 23:31:31,225 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([Rider{id=1, firstName='Radu', lastName='Ganea', team='Suzuki', engineCapacity=1000}])
+26 Mar 2021 23:31:52,023 TRACE Repository.RiderRepository.RiderRepository 109 getRiderByName - Enter Searching rider Radu Ganea
+26 Mar 2021 23:31:52,023 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:52,023 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2255ef9a)
+26 Mar 2021 23:31:52,024 TRACE Repository.RiderRepository.RiderRepository 125 getRiderByName - Exit with(Rider{id=1, firstName='Radu', lastName='Ganea', team='Suzuki', engineCapacity=1000})
+26 Mar 2021 23:31:52,025 TRACE Repository.RaceRepository.RaceRepository 77 getRaceByEngineCapacity - Enter Searching races with engine capacity 1000 
+26 Mar 2021 23:31:52,025 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:52,025 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b4a817d)
+26 Mar 2021 23:31:52,026 TRACE Repository.RegistrationRepository.RegistrationRepository 56 save - Enter saving task Domain.Registration@7182090b
+26 Mar 2021 23:31:52,026 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:52,027 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:31:52,457 TRACE Repository.RegistrationRepository.RegistrationRepository 65 save - Saved 1 instances
+26 Mar 2021 23:31:52,457 TRACE Repository.RegistrationRepository.RegistrationRepository 71 save - Exit
+26 Mar 2021 23:31:52,457 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+26 Mar 2021 23:31:52,457 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:52,458 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b4a817d)
+26 Mar 2021 23:31:52,458 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+26 Mar 2021 23:31:52,459 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:31:52,459 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:52,459 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:31:52,460 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@628ca632])
+26 Mar 2021 23:31:52,460 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:31:52,460 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:52,460 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:31:52,461 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5ac777eb])
+26 Mar 2021 23:31:52,461 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:31:52,461 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:52,461 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:31:52,462 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@54296c37])
+26 Mar 2021 23:31:52,462 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:31:52,462 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:31:52,462 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:31:52,462 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@3582fde8])
+26 Mar 2021 23:32:23,788 TRACE Repository.RiderRepository.RiderRepository 109 getRiderByName - Enter Searching rider Ioana Popescu
+26 Mar 2021 23:32:23,789 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:32:23,789 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2255ef9a)
+26 Mar 2021 23:32:59,673 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:32:59,680 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:32:59,681 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:32:59,682 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:33:07,572 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+26 Mar 2021 23:33:07,572 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:33:07,573 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:33:07,573 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:33:07,573 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:33:07,573 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:33:08,693 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5d852f3f)
+26 Mar 2021 23:33:08,752 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+26 Mar 2021 23:33:08,752 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:33:08,752 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:33:08,753 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:33:08,753 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:33:08,753 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:33:08,754 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b4a817d)
+26 Mar 2021 23:33:08,756 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+26 Mar 2021 23:33:08,757 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:33:08,757 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:33:08,757 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:33:08,757 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:33:08,758 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:33:08,758 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:33:08,759 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:33:08,760 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@59045ac0])
+26 Mar 2021 23:33:08,761 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:33:08,761 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:33:08,761 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:33:08,762 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5d130907])
+26 Mar 2021 23:33:08,762 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:33:08,762 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:33:08,762 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:33:08,763 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@286ce648])
+26 Mar 2021 23:33:08,764 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:33:08,764 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:33:08,764 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:33:08,764 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@53457bdf])
+26 Mar 2021 23:33:15,551 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Honda team
+26 Mar 2021 23:33:15,551 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:33:15,552 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:33:15,552 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:33:15,552 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:33:15,553 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:33:15,554 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4b510670)
+26 Mar 2021 23:33:15,554 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([])
+26 Mar 2021 23:33:33,434 TRACE Repository.RiderRepository.RiderRepository 109 getRiderByName - Enter Searching rider Ioana Popescu
+26 Mar 2021 23:33:33,434 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:33:33,435 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4b510670)
+26 Mar 2021 23:33:33,435 TRACE Repository.RaceRepository.RaceRepository 77 getRaceByEngineCapacity - Enter Searching races with engine capacity 600 
+26 Mar 2021 23:33:33,435 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:33:33,436 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b4a817d)
+26 Mar 2021 23:33:33,436 TRACE Repository.RiderRepository.RiderRepository 58 save - Enter saving task Rider{id=null, firstName='Ioana', lastName='Popescu', team='Honda', engineCapacity=600}
+26 Mar 2021 23:33:33,437 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:33:33,437 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4b510670)
+26 Mar 2021 23:33:33,919 TRACE Repository.RiderRepository.RiderRepository 69 save - Saved 1 instances
+26 Mar 2021 23:33:33,920 TRACE Repository.RiderRepository.RiderRepository 75 save - Exit
+26 Mar 2021 23:34:52,992 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:34:52,996 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:34:52,998 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:34:52,999 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:35:00,310 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+26 Mar 2021 23:35:00,310 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:00,311 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:35:00,311 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:35:00,311 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:35:00,311 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:35:00,569 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@703aaebc)
+26 Mar 2021 23:35:00,630 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+26 Mar 2021 23:35:00,631 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:00,631 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:35:00,631 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:35:00,632 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:35:00,632 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:35:00,633 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6902475a)
+26 Mar 2021 23:35:00,635 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+26 Mar 2021 23:35:00,635 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:35:00,635 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:00,636 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:35:00,636 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:35:00,636 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:35:00,637 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:35:00,637 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:35:00,639 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@2fcad2cd])
+26 Mar 2021 23:35:00,640 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:35:00,640 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:00,640 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:35:00,641 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@109dd87b])
+26 Mar 2021 23:35:00,641 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:35:00,642 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:00,642 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:35:00,642 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@fb78016])
+26 Mar 2021 23:35:00,642 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:35:00,643 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:00,643 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:35:00,643 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@76127797])
+26 Mar 2021 23:35:15,239 TRACE Repository.RiderRepository.RiderRepository 109 getRiderByName - Enter Searching rider Ioana Popescu
+26 Mar 2021 23:35:15,240 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:15,240 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:35:15,240 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:35:15,240 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:35:15,240 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:35:15,241 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52a29d02)
+26 Mar 2021 23:35:15,242 TRACE Repository.RiderRepository.RiderRepository 125 getRiderByName - Exit with(Rider{id=3, firstName='Ioana', lastName='Popescu', team='Honda', engineCapacity=600})
+26 Mar 2021 23:35:15,242 TRACE Repository.RaceRepository.RaceRepository 77 getRaceByEngineCapacity - Enter Searching races with engine capacity 600 
+26 Mar 2021 23:35:15,242 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:15,243 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6902475a)
+26 Mar 2021 23:35:15,243 TRACE Repository.RegistrationRepository.RegistrationRepository 56 save - Enter saving task Domain.Registration@4f1c9949
+26 Mar 2021 23:35:15,243 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:15,244 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:35:15,508 TRACE Repository.RegistrationRepository.RegistrationRepository 65 save - Saved 1 instances
+26 Mar 2021 23:35:15,508 TRACE Repository.RegistrationRepository.RegistrationRepository 71 save - Exit
+26 Mar 2021 23:35:15,509 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+26 Mar 2021 23:35:15,509 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:15,509 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6902475a)
+26 Mar 2021 23:35:15,510 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+26 Mar 2021 23:35:15,510 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:35:15,510 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:15,511 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:35:15,511 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@980294c, Domain.Registration@4f0ceff3])
+26 Mar 2021 23:35:15,511 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:35:15,512 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:15,512 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:35:15,512 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@4cba3699, Domain.Registration@67c72896])
+26 Mar 2021 23:35:15,513 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:35:15,513 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:15,513 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:35:15,514 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@6f05a76b, Domain.Registration@47deae0f])
+26 Mar 2021 23:35:15,514 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:35:15,514 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:15,514 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+26 Mar 2021 23:35:15,515 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5acd4693, Domain.Registration@41046c4])
+26 Mar 2021 23:35:23,618 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Honda team
+26 Mar 2021 23:35:23,619 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:23,619 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52a29d02)
+26 Mar 2021 23:35:23,619 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([Rider{id=3, firstName='Ioana', lastName='Popescu', team='Honda', engineCapacity=600}])
+26 Mar 2021 23:35:30,760 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Suzuki team
+26 Mar 2021 23:35:30,761 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:35:30,761 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52a29d02)
+26 Mar 2021 23:35:30,761 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([Rider{id=1, firstName='Radu', lastName='Ganea', team='Suzuki', engineCapacity=1000}])
+26 Mar 2021 23:37:47,171 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:37:47,177 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:37:47,178 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:37:47,179 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+26 Mar 2021 23:37:55,940 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+26 Mar 2021 23:37:55,940 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:37:55,941 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:37:55,941 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:37:55,941 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:37:55,941 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:37:57,611 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5d852f3f)
+26 Mar 2021 23:37:57,672 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+26 Mar 2021 23:37:57,672 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:37:57,672 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:37:57,673 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:37:57,673 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:37:57,673 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:37:57,674 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b4a817d)
+26 Mar 2021 23:37:57,675 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+26 Mar 2021 23:37:57,676 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:37:57,676 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:37:57,676 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:37:57,677 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:37:57,677 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:37:57,677 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:37:57,678 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:37:57,680 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@59045ac0, Domain.Registration@28bc80ee])
+26 Mar 2021 23:37:57,680 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:37:57,681 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:37:57,681 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:37:57,681 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@286ce648, Domain.Registration@53457bdf])
+26 Mar 2021 23:37:57,682 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:37:57,682 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:37:57,682 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:37:57,683 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@1f323aa9, Domain.Registration@5a2c4379])
+26 Mar 2021 23:37:57,683 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:37:57,683 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:37:57,683 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:37:57,684 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@15bda0d2, Domain.Registration@6d5eba39])
+26 Mar 2021 23:38:05,426 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Ducati team
+26 Mar 2021 23:38:05,426 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:38:05,426 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+26 Mar 2021 23:38:05,426 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+26 Mar 2021 23:38:05,426 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+26 Mar 2021 23:38:05,426 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+26 Mar 2021 23:38:05,426 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37d2f9a3)
+26 Mar 2021 23:38:05,429 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([Rider{id=2, firstName='Maria', lastName='Pop', team='Ducati', engineCapacity=1000}])
+26 Mar 2021 23:38:19,234 TRACE Repository.RiderRepository.RiderRepository 109 getRiderByName - Enter Searching rider Maria Pop
+26 Mar 2021 23:38:19,235 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:38:19,235 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37d2f9a3)
+26 Mar 2021 23:38:19,236 TRACE Repository.RiderRepository.RiderRepository 125 getRiderByName - Exit with(Rider{id=2, firstName='Maria', lastName='Pop', team='Ducati', engineCapacity=1000})
+26 Mar 2021 23:38:19,236 TRACE Repository.RaceRepository.RaceRepository 77 getRaceByEngineCapacity - Enter Searching races with engine capacity 1000 
+26 Mar 2021 23:38:19,236 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:38:19,236 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b4a817d)
+26 Mar 2021 23:38:19,237 TRACE Repository.RegistrationRepository.RegistrationRepository 56 save - Enter saving task Domain.Registration@3f1bf70b
+26 Mar 2021 23:38:19,237 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:38:19,237 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:38:19,737 TRACE Repository.RegistrationRepository.RegistrationRepository 65 save - Saved 1 instances
+26 Mar 2021 23:38:19,737 TRACE Repository.RegistrationRepository.RegistrationRepository 71 save - Exit
+26 Mar 2021 23:38:19,740 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+26 Mar 2021 23:38:19,740 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:38:19,740 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b4a817d)
+26 Mar 2021 23:38:19,741 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+26 Mar 2021 23:38:19,741 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:38:19,741 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:38:19,742 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:38:19,742 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5ba56dad, Domain.Registration@4dcde95c, Domain.Registration@2d0efc41])
+26 Mar 2021 23:38:19,742 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:38:19,742 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:38:19,743 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:38:19,743 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5a4b33fe, Domain.Registration@2af3f51f, Domain.Registration@8d67e14])
+26 Mar 2021 23:38:19,743 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:38:19,743 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:38:19,744 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:38:19,744 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@52e077bb, Domain.Registration@51376ada, Domain.Registration@64d936ee])
+26 Mar 2021 23:38:19,744 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+26 Mar 2021 23:38:19,744 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+26 Mar 2021 23:38:19,744 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+26 Mar 2021 23:38:19,745 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5fc4d2bf, Domain.Registration@ec83b53, Domain.Registration@6443f1ea])
+31 Mar 2021 08:18:58,146 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+31 Mar 2021 08:18:58,265 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+31 Mar 2021 08:18:58,295 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+31 Mar 2021 08:18:58,330 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+31 Mar 2021 08:20:07,243 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+31 Mar 2021 08:20:07,244 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:20:07,244 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+31 Mar 2021 08:20:07,244 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+31 Mar 2021 08:20:07,245 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+31 Mar 2021 08:20:07,245 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+31 Mar 2021 08:20:12,095 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@703aaebc)
+31 Mar 2021 08:20:12,463 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+31 Mar 2021 08:20:12,464 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:20:12,464 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+31 Mar 2021 08:20:12,465 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+31 Mar 2021 08:20:12,465 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+31 Mar 2021 08:20:12,465 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+31 Mar 2021 08:20:12,467 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6902475a)
+31 Mar 2021 08:20:12,563 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+31 Mar 2021 08:20:12,616 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:20:12,616 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:20:12,616 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+31 Mar 2021 08:20:12,617 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+31 Mar 2021 08:20:12,617 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+31 Mar 2021 08:20:12,617 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+31 Mar 2021 08:20:12,618 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:20:12,805 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@2fcad2cd, Domain.Registration@2a50c676, Domain.Registration@109dd87b, Domain.Registration@fb78016])
+31 Mar 2021 08:20:12,813 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:20:12,813 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:20:12,814 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:20:12,814 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5a5d6c55, Domain.Registration@24fd3965, Domain.Registration@1779aadc, Domain.Registration@7232d96b])
+31 Mar 2021 08:20:12,814 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:20:12,815 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:20:12,815 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:20:12,815 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@43bc2cbc, Domain.Registration@ec713bf, Domain.Registration@54b267f1, Domain.Registration@30af058d])
+31 Mar 2021 08:20:12,816 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:20:12,816 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:20:12,817 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:20:12,818 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@125416e8, Domain.Registration@24b8a5f6, Domain.Registration@6372d37f, Domain.Registration@2bb921f1])
+31 Mar 2021 08:20:26,105 TRACE Repository.RiderRepository.RiderRepository 80 getRidersByTeam - Enter Searching riders from Honda team
+31 Mar 2021 08:20:26,105 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:20:26,105 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+31 Mar 2021 08:20:26,105 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+31 Mar 2021 08:20:26,106 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+31 Mar 2021 08:20:26,106 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+31 Mar 2021 08:20:26,106 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@183d0f07)
+31 Mar 2021 08:20:26,128 TRACE Repository.RiderRepository.RiderRepository 103 getRidersByTeam - Exit with([Rider{id=3, firstName='Ioana', lastName='Popescu', team='Honda', engineCapacity=600}, Rider{id=4, firstName='Ionescu', lastName='Paul', team='Honda', engineCapacity=300}])
+31 Mar 2021 08:20:44,296 TRACE Repository.RiderRepository.RiderRepository 109 getRiderByName - Enter Searching rider a b
+31 Mar 2021 08:20:44,296 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:20:44,296 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@183d0f07)
+31 Mar 2021 08:20:44,297 TRACE Repository.RaceRepository.RaceRepository 77 getRaceByEngineCapacity - Enter Searching races with engine capacity 600 
+31 Mar 2021 08:20:44,297 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:20:44,298 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6902475a)
+31 Mar 2021 08:20:44,298 TRACE Repository.RiderRepository.RiderRepository 58 save - Enter saving task Rider{id=null, firstName='a', lastName='b', team='Suzuki', engineCapacity=600}
+31 Mar 2021 08:20:44,299 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:20:44,299 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@183d0f07)
+31 Mar 2021 08:20:45,582 TRACE Repository.RiderRepository.RiderRepository 69 save - Saved 1 instances
+31 Mar 2021 08:20:45,583 TRACE Repository.RiderRepository.RiderRepository 75 save - Exit
+31 Mar 2021 08:26:02,176 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+31 Mar 2021 08:26:02,211 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+31 Mar 2021 08:26:02,213 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+31 Mar 2021 08:26:02,223 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+31 Mar 2021 08:26:10,250 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+31 Mar 2021 08:26:10,250 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:10,250 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+31 Mar 2021 08:26:10,250 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+31 Mar 2021 08:26:10,251 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+31 Mar 2021 08:26:10,251 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+31 Mar 2021 08:26:13,474 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@491af3c1)
+31 Mar 2021 08:26:13,602 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+31 Mar 2021 08:26:13,603 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:13,603 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+31 Mar 2021 08:26:13,603 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+31 Mar 2021 08:26:13,604 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+31 Mar 2021 08:26:13,604 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+31 Mar 2021 08:26:13,605 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+31 Mar 2021 08:26:13,607 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+31 Mar 2021 08:26:13,608 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:26:13,608 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:13,608 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+31 Mar 2021 08:26:13,609 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+31 Mar 2021 08:26:13,609 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+31 Mar 2021 08:26:13,609 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+31 Mar 2021 08:26:13,610 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59045ac0)
+31 Mar 2021 08:26:13,612 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5d130907, Domain.Registration@286ce648, Domain.Registration@53457bdf, Domain.Registration@1f323aa9])
+31 Mar 2021 08:26:13,613 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:26:13,613 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:13,614 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59045ac0)
+31 Mar 2021 08:26:13,614 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@15bda0d2, Domain.Registration@6d5eba39, Domain.Registration@63b72249, Domain.Registration@5b3892cd])
+31 Mar 2021 08:26:13,615 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:26:13,615 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:13,615 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59045ac0)
+31 Mar 2021 08:26:13,616 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@237b0248, Domain.Registration@3b6cfb6c, Domain.Registration@61132322, Domain.Registration@7ea27b37])
+31 Mar 2021 08:26:13,616 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:26:13,617 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:13,617 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59045ac0)
+31 Mar 2021 08:26:13,618 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5305fe9, Domain.Registration@595b63b8, Domain.Registration@21a95182, Domain.Registration@4cbffd43])
+31 Mar 2021 08:26:27,225 TRACE Repository.RiderRepository.RiderRepository 109 getRiderByName - Enter Searching rider aa bb
+31 Mar 2021 08:26:27,225 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:27,225 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+31 Mar 2021 08:26:27,225 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+31 Mar 2021 08:26:27,225 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+31 Mar 2021 08:26:27,226 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+31 Mar 2021 08:26:27,226 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@fbf8978)
+31 Mar 2021 08:26:27,227 TRACE Repository.RaceRepository.RaceRepository 77 getRaceByEngineCapacity - Enter Searching races with engine capacity 600 
+31 Mar 2021 08:26:27,227 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:27,227 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+31 Mar 2021 08:26:27,228 TRACE Repository.RiderRepository.RiderRepository 58 save - Enter saving task Rider{id=null, firstName='aa', lastName='bb', team='Suzuki', engineCapacity=600}
+31 Mar 2021 08:26:27,229 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:27,229 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@fbf8978)
+31 Mar 2021 08:26:27,319 TRACE Repository.RiderRepository.RiderRepository 69 save - Saved 1 instances
+31 Mar 2021 08:26:27,320 TRACE Repository.RiderRepository.RiderRepository 75 save - Exit
+31 Mar 2021 08:26:27,320 TRACE Repository.RiderRepository.RiderRepository 109 getRiderByName - Enter Searching rider aa bb
+31 Mar 2021 08:26:27,320 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:27,320 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@fbf8978)
+31 Mar 2021 08:26:27,321 TRACE Repository.RiderRepository.RiderRepository 125 getRiderByName - Exit with(Rider{id=6, firstName='aa', lastName='bb', team='Suzuki', engineCapacity=600})
+31 Mar 2021 08:26:27,322 TRACE Repository.RegistrationRepository.RegistrationRepository 56 save - Enter saving task Domain.Registration@47850864
+31 Mar 2021 08:26:27,322 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:27,322 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59045ac0)
+31 Mar 2021 08:26:27,481 TRACE Repository.RegistrationRepository.RegistrationRepository 65 save - Saved 1 instances
+31 Mar 2021 08:26:27,481 TRACE Repository.RegistrationRepository.RegistrationRepository 71 save - Exit
+31 Mar 2021 08:26:27,484 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+31 Mar 2021 08:26:27,484 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:27,485 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29eb9628)
+31 Mar 2021 08:26:27,485 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+31 Mar 2021 08:26:27,485 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:26:27,485 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:27,486 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59045ac0)
+31 Mar 2021 08:26:27,486 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@fcac6a0, Domain.Registration@2f4de644, Domain.Registration@40e41de1, Domain.Registration@579eccd1, Domain.Registration@e38ff44])
+31 Mar 2021 08:26:27,487 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:26:27,487 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:27,487 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59045ac0)
+31 Mar 2021 08:26:27,488 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@4e874701, Domain.Registration@2e6c4025, Domain.Registration@f35f97d, Domain.Registration@463ef500, Domain.Registration@32750d89])
+31 Mar 2021 08:26:27,488 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:26:27,488 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:27,488 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59045ac0)
+31 Mar 2021 08:26:27,489 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@7e541e8a, Domain.Registration@5e8aee2c, Domain.Registration@6fad9608, Domain.Registration@75aec731, Domain.Registration@2b502740])
+31 Mar 2021 08:26:27,490 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:26:27,490 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:26:27,490 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59045ac0)
+31 Mar 2021 08:26:27,491 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@22225788, Domain.Registration@213c8812, Domain.Registration@22a8444b, Domain.Registration@8681d79, Domain.Registration@384695eb])
+31 Mar 2021 08:53:56,814 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+31 Mar 2021 08:53:56,890 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+31 Mar 2021 08:53:56,892 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+31 Mar 2021 08:53:56,894 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+31 Mar 2021 08:54:07,063 TRACE Repository.UserRepository.UserRepository 83 getUserByUsernameAndPassword - Enter
+31 Mar 2021 08:54:07,064 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:07,064 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+31 Mar 2021 08:54:07,065 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+31 Mar 2021 08:54:07,066 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+31 Mar 2021 08:54:07,067 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+31 Mar 2021 08:54:09,578 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@703aaebc)
+31 Mar 2021 08:54:09,923 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+31 Mar 2021 08:54:09,923 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:09,923 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+31 Mar 2021 08:54:09,924 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+31 Mar 2021 08:54:09,924 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+31 Mar 2021 08:54:09,924 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+31 Mar 2021 08:54:09,925 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6902475a)
+31 Mar 2021 08:54:09,984 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+31 Mar 2021 08:54:09,985 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:54:09,985 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:09,985 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+31 Mar 2021 08:54:09,986 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+31 Mar 2021 08:54:09,986 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+31 Mar 2021 08:54:09,987 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+31 Mar 2021 08:54:09,989 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:54:10,061 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@2fcad2cd, Domain.Registration@2a50c676, Domain.Registration@109dd87b, Domain.Registration@fb78016])
+31 Mar 2021 08:54:10,061 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:54:10,062 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:10,062 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:54:10,062 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5a5d6c55, Domain.Registration@24fd3965, Domain.Registration@1779aadc, Domain.Registration@7232d96b])
+31 Mar 2021 08:54:10,063 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:54:10,063 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:10,063 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:54:10,063 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@43bc2cbc, Domain.Registration@ec713bf, Domain.Registration@54b267f1, Domain.Registration@30af058d])
+31 Mar 2021 08:54:10,064 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:54:10,064 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:10,065 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:54:10,066 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@125416e8, Domain.Registration@24b8a5f6, Domain.Registration@6372d37f, Domain.Registration@2bb921f1])
+31 Mar 2021 08:54:23,590 TRACE Repository.RiderRepository.RiderRepository 109 getRiderByName - Enter Searching rider aa bb
+31 Mar 2021 08:54:23,590 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:23,591 TRACE Repository.Utils.JDBCUtils 22 getNewConnection - Enter
+31 Mar 2021 08:54:23,591 INFO  Repository.Utils.JDBCUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db
+31 Mar 2021 08:54:23,591 INFO  Repository.Utils.JDBCUtils 29 getNewConnection - user: null
+31 Mar 2021 08:54:23,591 INFO  Repository.Utils.JDBCUtils 30 getNewConnection - password: null
+31 Mar 2021 08:54:23,593 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52a29d02)
+31 Mar 2021 08:54:23,597 TRACE Repository.RaceRepository.RaceRepository 77 getRaceByEngineCapacity - Enter Searching races with engine capacity 125 
+31 Mar 2021 08:54:23,598 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:23,600 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6902475a)
+31 Mar 2021 08:54:23,640 TRACE Repository.RiderRepository.RiderRepository 58 save - Enter saving task Rider{id=null, firstName='aa', lastName='bb', team='Honda', engineCapacity=125}
+31 Mar 2021 08:54:23,640 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:23,641 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52a29d02)
+31 Mar 2021 08:54:23,796 TRACE Repository.RiderRepository.RiderRepository 69 save - Saved 1 instances
+31 Mar 2021 08:54:23,797 TRACE Repository.RiderRepository.RiderRepository 75 save - Exit
+31 Mar 2021 08:54:23,797 TRACE Repository.RiderRepository.RiderRepository 109 getRiderByName - Enter Searching rider aa bb
+31 Mar 2021 08:54:23,797 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:23,798 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52a29d02)
+31 Mar 2021 08:54:23,798 TRACE Repository.RiderRepository.RiderRepository 125 getRiderByName - Exit with(Rider{id=9, firstName='aa', lastName='bb', team='Honda', engineCapacity=125})
+31 Mar 2021 08:54:23,799 TRACE Repository.RegistrationRepository.RegistrationRepository 56 save - Enter saving task Domain.Registration@4f1c9949
+31 Mar 2021 08:54:23,799 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:23,799 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:54:23,876 TRACE Repository.RegistrationRepository.RegistrationRepository 65 save - Saved 1 instances
+31 Mar 2021 08:54:23,876 TRACE Repository.RegistrationRepository.RegistrationRepository 71 save - Exit
+31 Mar 2021 08:54:23,880 TRACE Repository.RaceRepository.RaceRepository 28 findAll - Enter
+31 Mar 2021 08:54:23,881 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:23,881 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6902475a)
+31 Mar 2021 08:54:23,881 TRACE Repository.RaceRepository.RaceRepository 50 findAll - Exit with([Race{id=1, name='Stock1000', engineCapacity=1000, maximumRiders=20}, Race{id=2, name='Stock600', engineCapacity=600, maximumRiders=15}, Race{id=3, name='Stock300', engineCapacity=300, maximumRiders=15}, Race{id=4, name='Stock125', engineCapacity=125, maximumRiders=10}])
+31 Mar 2021 08:54:23,881 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:54:23,882 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:23,882 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:54:23,882 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@4f0ceff3, Domain.Registration@4cba3699, Domain.Registration@67c72896, Domain.Registration@6f05a76b, Domain.Registration@47deae0f])
+31 Mar 2021 08:54:23,883 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:54:23,883 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:23,883 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:54:23,884 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@5acd4693, Domain.Registration@41046c4, Domain.Registration@466c97d2, Domain.Registration@74f0f7c6, Domain.Registration@44b9ce15])
+31 Mar 2021 08:54:23,884 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:54:23,884 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:23,884 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:54:23,885 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@42998620, Domain.Registration@60e95ba6, Domain.Registration@13d4ceba, Domain.Registration@199773b3, Domain.Registration@17b15e27])
+31 Mar 2021 08:54:23,885 TRACE Repository.RegistrationRepository.RegistrationRepository 29 findAll - Enter
+31 Mar 2021 08:54:23,885 TRACE Repository.Utils.JDBCUtils 47 getConnection - Enter
+31 Mar 2021 08:54:23,886 TRACE Repository.Utils.JDBCUtils 58 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f56a43b)
+31 Mar 2021 08:54:23,887 TRACE Repository.RegistrationRepository.RegistrationRepository 50 findAll - Exit with([Domain.Registration@3d2f131c, Domain.Registration@8bbab1d, Domain.Registration@2a134b52, Domain.Registration@374e7851, Domain.Registration@72bc2a57])
+09 Apr 2021 20:48:43,076 INFO  Repository.UserRepository.UserRepository 22 <init> - Initializing UserRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+09 Apr 2021 20:48:43,184 INFO  Repository.RaceRepository.RaceRepository 22 <init> - Initializing RaceRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+09 Apr 2021 20:48:43,211 INFO  Repository.RiderRepository.RiderRepository 23 <init> - Initializing RiderRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}
+09 Apr 2021 20:48:43,247 INFO  Repository.RegistrationRepository.RegistrationRepository 23 <init> - Initializing RegistrationRepository with properties: {jdbc.url=jdbc:sqlite:D:\UBB\SEMESTRUL IV\MPP\mpp-proiect-repository-k-alexa75\MotorcycleRace.db}

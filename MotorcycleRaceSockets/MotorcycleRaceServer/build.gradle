@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'MotorcycleRaceSockets'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':MotorcycleRaceModel')
+    compile project(':MotorcycleRaceServices')
+    compile project(':MotorcycleRacePersistence')
+    compile project(':MotorcycleRaceNetworking')
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+test {
+    useJUnitPlatform()
+}

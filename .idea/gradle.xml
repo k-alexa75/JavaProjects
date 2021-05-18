@@ -6,6 +6,41 @@
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/MotorcycleRace" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/MotorcycleRace" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/MotorcycleRaceSockets" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/MotorcycleRaceSockets" />
+            <option value="$PROJECT_DIR$/MotorcycleRaceSockets/MotorcycleRaceClient" />
+            <option value="$PROJECT_DIR$/MotorcycleRaceSockets/MotorcycleRaceClientFX" />
+            <option value="$PROJECT_DIR$/MotorcycleRaceSockets/MotorcycleRaceModel" />
+            <option value="$PROJECT_DIR$/MotorcycleRaceSockets/MotorcycleRaceNetworking" />
+            <option value="$PROJECT_DIR$/MotorcycleRaceSockets/MotorcycleRacePersistence" />
+            <option value="$PROJECT_DIR$/MotorcycleRaceSockets/MotorcycleRaceServer" />
+            <option value="$PROJECT_DIR$/MotorcycleRaceSockets/MotorcycleRaceServices" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/MotorcycleRaceSpringRemoting" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/MotorcycleRaceSpringRemoting" />
+            <option value="$PROJECT_DIR$/MotorcycleRaceSpringRemoting/MotorcycleRaceClientFX" />
+            <option value="$PROJECT_DIR$/MotorcycleRaceSpringRemoting/MotorcycleRaceModel" />
+            <option value="$PROJECT_DIR$/MotorcycleRaceSpringRemoting/MotorcycleRacePersistence" />
+            <option value="$PROJECT_DIR$/MotorcycleRaceSpringRemoting/MotorcycleRaceServer" />
+            <option value="$PROJECT_DIR$/MotorcycleRaceSpringRemoting/MotorcycleRaceServices" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>
