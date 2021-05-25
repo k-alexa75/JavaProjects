@@ -5,6 +5,27 @@
       <module name="MotorcycleRace" target="1.8" />
       <module name="MotorcycleRace.main" target="1.8" />
       <module name="MotorcycleRace.test" target="1.8" />
+      <module name="MotorcycleRaceHibernate" target="15" />
+      <module name="MotorcycleRaceHibernate.main" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceClientFX" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceClientFX.main" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceClientFX.test" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceModel" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceModel.main" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceModel.test" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceNetworking" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceNetworking.main" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceNetworking.test" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRacePersistence" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRacePersistence.main" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRacePersistence.test" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceServer" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceServer.main" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceServer.test" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceServices" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceServices.main" target="15" />
+      <module name="MotorcycleRaceHibernate.MotorcycleRaceServices.test" target="15" />
+      <module name="MotorcycleRaceHibernate.test" target="15" />
       <module name="mpp-proiect-repository-k-alexa75.MotorcycleRace" target="1.8" />
       <module name="mpp-proiect-repository-k-alexa75.MotorcycleRace.main" target="1.8" />
       <module name="mpp-proiect-repository-k-alexa75.MotorcycleRace.test" target="1.8" />
